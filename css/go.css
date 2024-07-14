@@ -1,0 +1,61 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif,'poppins';
+text-decoration: none;
+
+}
+ body{
+ background-color: #96EFFF;
+ b
+  
+  }
+
+#header{
+width: 100%;
+height: 100vh;
+background-image: url(../img/cv3.png);
+background-size: 700px;
+background-repeat: no-repeat;
+background-position: right ;
+background-attachment: scroll;
+
+
+  }
+  .continer{
+
+    padding: 10px 10%;
+  }
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo{
+width: 140px;
+color: #000000;
+
+}
+nav ul li {
+  display: inline-block;
+  list-style: nono;
+  margin: 10px 20px;
+
+}
+nav ul il a {
+color: #000000;
+text:#000000;
+text-decoration: none;
+font-size: 18px;
+
+}
+.header-text{
+  margin-top: 10%;
+  font-size: 30px;
+}
+.header-text p{
+
+  margin-top: 20px;
+}
