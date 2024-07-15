@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 
-<HTML>
+<HTML lang="en">
 
 <HEAD>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width , initial-scale=1.0">
-	<title>WEB DISAYN CV</title>
+	<title> CV</title>
 	<link rel="icon" type="image/jpg" href="img/cv.png">
 
   <link rel="stylesheet" type="text/css" href="css/go.css">
@@ -13,32 +13,76 @@
 </HEAD>
 
 <BODY>
-  <div id="header">
-    <div class="continer">
-      <nav>
-        <a href="#" class="logo"> <span>nouf alhamed</span>
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about my</a></li>
-            <li><a href="#">skils</a></li>
-            <li><a href="#">projects</a></li>
-            <li><a href="#">contact</a></li>
+    <header id="home">
+
+      <div class="navbar">
+        <nav>
+          <a href="#home" id ="logo">Nouf AL-hamed</a>
+           <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about </a></li>
+            <li><a href="#skils">skils</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
             </ul>
+            <img src="img/moon.png" id="icon">
+        </nav>
+      </div>
+      <div class="header-content">
+      <div class="content-text">
+        <p><span class="text-primary">Hi There, I'm</span></p>
+        <h1> Nouf AL-hamed</h1>
+        <p class="title">Frontend web developer</p> 
+        <a href="#about" class="btn-primary"> About Me <i class="fa-solid fa-circle-down"></i></a> 
+      </div>
+      <img src="img/cv11.png" alt="nouf AL-hamed">
+    </div>
+    </header>
 
+    <script>
+      var icon = document.getElementById("icon");
+      icon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+          icon.src = "img/sun.png";
+        }else{
+          icon.src = "img/moon.png";
+        }
+        // body...
+      }
+
+    </script>
+    <!--
+    <section class="home" id="home">
+    <nav>
+      <h2>Nouf <span>Al-hamed</span></h2>
+      
           </nav>
-         <div class="header-text">   
-	 <h1>hey Iam <br> Nouf Abdrahmman  Alhamed</H1>
-     <h2> Front-End Developer</h2> 
-     <h3>A passionate and expert senior student pursuing <br> a summer internship opportunity as a front-end developer<br>committed to a staying updated with the newest industry<br> trend and technology. Ready to contribute to a dynamic team and <br>gain practical experience in a professional setting.</h3>
+
+          </div>
+         <div class="content">
+         <div class="container-texts">
+      <h1>Hey I am ^~^ <br> Nouf Abdrahmman  Alhamed</h1>
+     <h3> Web Designer</h3> 
+     <h4>A Passionate And Expert Senior Student Pursuing <br>
+     Web Designer .</h4>
+      <a href="#" class="btn"> Download CV </a>
+      <div class="imge">
+       
+      
+       
+     </div>
+
+      </div>     
+</div> 
    </div>
-   </div>
-</div>
-</div>
-</div>
-</div>
+ </div>
+ </div>
+ </div>
+ </section>
 
 
-     <!-- <h3> PROJECTS </h3>
+      <h3> PROJECTS </h3>
      <h4>Java Swing-based text editor application   Apr 2023 </h4>
      <h5>Allows users to create, edit, save, and open text files.It also offers search functionality to find specific content in text files and basic statistical analysis for numeric data within the files.</h5>
      <h4>Developing a program that has two user roles: “user” and “administrator”. Aug 2023 </h4>
